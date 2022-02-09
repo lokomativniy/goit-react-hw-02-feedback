@@ -5,8 +5,7 @@ import Container from './components/Container/Container';
 function App() {
   return (
     <Container>
-      {/* <h2 className="title">Please leave feedback</h2> */}
-      {/* <FeedbackOptions /> */} <Feedback />
+      <Feedback />
     </Container>
   );
 }
